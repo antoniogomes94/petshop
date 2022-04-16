@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,6 +10,7 @@ export class ProductsPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  
   }
 
 }
